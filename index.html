@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+    <style>
+        /* 1. Reset and Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* Dark Gray Background */
+            background-color: #1e1e1e; 
+            /* White Font */
+            color: #ffffff;
+            font-family: 'JetBrains Mono', monospace;
+            
+            /* Centering Logic */
+            height: 100vh;             /* Take up full viewport height */
+            display: flex;             /* Use Flexbox */
+            justify-content: center;   /* Center Horizontally */
+            align-items: center;       /* Center Vertically */
+            text-align: center;        /* Center text lines */
+            padding: 1rem;             /* Padding for mobile screens */
+        }
+
+        /* 2. Message Container */
+        .message-box {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        /* 3. Link Styling */
+        a {
+            color: #47b559; /* Soft Blue */
+            text-decoration: none;
+            display: block; /* Forces the link to a new line */
+            margin-top: 10px;
+            transition: color 0.2s ease;
+            word-break: break-all; /* Ensures long links don't break layout on mobile */
+        }
+
+        a:hover {
+            color: #379647; /* Green on hover */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="message-box">
+        Uygulamaya yeni adresinde şuradan ulaşabilirsiniz:
+        <a href="https://randombin.com/coniugazioni/">https://randombin.com/coniugazioni/</a>
+    </div>
+
+</body>
+</html>
